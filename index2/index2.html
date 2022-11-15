@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Zamowienie</title>
+</head>
+<body>
+    <a href="../index.html">Powrót do strony głównej</a><br><br><br>
+<div class="form">
+    <form>
+        <fieldset>
+          <legend>Zamówienie</legend>
+
+          <label for="fname" class="name">Okazja:</label><br>
+            
+            <label for="slub">
+                <input type="radio" name="okazja" value="Ślub" id="slub">
+                Ślub
+            </label><br>
+            <label for="rocznica">
+                <input type="radio" name="okazja" value="rocznica" id="rocznica">
+                Rocznica</label><br>
+            <label for="inne">
+                <input type="radio" name="okazja" value="inne" id="inne">
+                Inne</label> <br><br><br>
+
+            <label for="fname" class="name">Rodzaje kwiatów:</label><br>
+            <label for="Roza">
+                <input type="checkbox" name="Roza" value="Roza" id="Roza"> 
+                Róża</label><br>
+            <label for="Gozdzik"> 
+                <input type="checkbox" name="Gozdzik" value="Car" id="Gozdzik">
+                Goździk</label><br>
+            <label for="Inne">
+                <input type="checkbox" name="Inne" value="Inne" id="Inne">
+                Inne</label><br><br><br>
+
+            <label for="fname" class="name">Szczegóły zamówienia:</label><br>
+            <textarea name="szczegoly" rows="4" cols="50" maxlength="50" placeholder="Tutaj opisz szczegóły Twojego zamówienia"></textarea><br><br><br>
+
+            <label for="fname">Imię:</label><br>
+            <input type="text" name="Dane"><br>
+            <label for="lname">Nazwisko:</label><br>
+            <input type="text" id="lname" name="Dane"><br>
+            <label for="fname">Telefon:</label><br>
+            <input type="number" name="telefon"><br><br><br>
+
+            <input type="submit" value="Zamów"><br>
+
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>
